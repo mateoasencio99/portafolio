@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #00e2f6;
+  --secondary-color: #1c1d1e
+}
+
+.background-primary-color {
+  background-color: var(--primary-color);
+}
+
+.navbar {
+  background-color: var(--secondary-color);
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+
+.navbar-light {
+  display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 25px 10px;
+  color: #ffffff;
+  font-weight: 500;
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
+
+@media (max-width: 700px) {
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+  }
+}
+
+.profile-image {
+  width: 380px;
+  box-shadow: 9px 14px 20px 2px;
+}
