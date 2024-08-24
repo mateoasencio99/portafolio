@@ -44,10 +44,37 @@
 }
 
 .footer-icon {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .footer-a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.footer-p {
+  margin: 0 0 1px 5px;
+}
+
+.whatsapp-color {
+  color: #00e676;
+}
+
+.instagram-color {
+  color: #bf26af;
+}
+
+.gmail-color {
+  color: #ff0000;
+}
+
+.experience-image {
+  width: 180px;
+  box-shadow: 9px 14px 20px 2px;
+}
+
+.experience-row {
+  border-radius: 10px;
+  box-shadow: 5px 8px 20px 2px
 }
