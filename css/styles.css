@@ -61,20 +61,36 @@
   color: #00e676;
 }
 
+.btn-whatsapp {
+  background-color: #00e676 !important;
+  color: #ffffff !important;
+}
+
 .instagram-color {
   color: #bf26af;
+}
+
+.btn-instagram {
+  background-color: #bf26af !important;
+  color: #ffffff !important;
 }
 
 .gmail-color {
   color: #ff0000;
 }
 
-.experience-image {
+.btn-gmail {
+  background-color: #ff0000 !important;
+  color: #ffffff !important;
+}
+
+
+.card-image {
   width: 180px;
   box-shadow: 9px 14px 20px 2px;
 }
 
-.experience-row {
+.card-shadow {
   border-radius: 10px;
   box-shadow: 5px 8px 20px 2px
 }
