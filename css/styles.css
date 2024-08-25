@@ -7,6 +7,17 @@
   background-color: var(--primary-color);
 }
 
+@font-face {
+  font-family: 'NewAmsterdam-Regular';
+  src: url('../assets/googlefonts/NewAmsterdam-Regular.ttf') format('ttf');
+}
+
+h1 {
+  font-family: "NewAmsterdam-Regular", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar {
   background-color: var(--secondary-color);
 }
