@@ -18,13 +18,14 @@ h1 {
   font-style: normal;
 }
 
-.navbar {
+.background-dark {
   background-color: var(--secondary-color);
+  color: #ffffff !important;
 }
 
-.footer {
-  background-color: var(--secondary-color);
-  color: #ffffff;
+.background-light {
+  background-color: #ffffff;
+  color: black;
 }
 
 .navbar-light {
@@ -33,7 +34,6 @@ h1 {
 
 .navbar-light .navbar-nav .nav-link {
   padding: 25px 10px;
-  color: #ffffff;
   font-weight: 500;
   outline: none;
 }
@@ -118,4 +118,8 @@ h1 {
   background-color: var(--secondary-color);;
   color: #ffffff;
   border-radius: 10px;
+}
+
+.change-theme-btn {
+  cursor: pointer;
 }
